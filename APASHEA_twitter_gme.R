@@ -6,7 +6,6 @@ assign("last.warning", NULL, envir = baseenv())  # Reset list of past warnings
 
 
 # GME (GameStop) stock data retreived from Yahoo! Finance.
-library(tidyverse)
 library(quantmod)
 getSymbols(Symbols = "GME", src = "yahoo")
 tail(GME)
