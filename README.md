@@ -12,5 +12,5 @@ This R script does the following:
 	- Output topic models (here a latent dirichlet allocation model which finds 'latent' patterns of particular words used across our documents, i.e. our tweets. We use Gibbs sampling to output four topics).
 	- Visualize topic models and appearance proportions per day.
 - Finds subsets of tweets most related to individual topics from topic models for deeper inspection
-- Plots topic appearance per tweet's timestamp versus the adjusted close stock price, which might be used conceptually to study the relationship between stock price and twitter topics (inspired by economist Thomas Renault's 2017 study of intraday StockTwits sentiment analysis versus stock price changes; citation included in the script)
+- Plots topic appearance per tweet's timestamp versus the adjusted close stock price, which might be used conceptually to study the relationship between stock price and twitter topics (inspired by economist Thomas Renault's 2017 study of intraday StockTwits sentiment analysis versus stock price changes, citation included in the script, as well as economist Robert J. Shiller's Narrative Economics, 2017 NBER working paper / 2019 book published by Princeton University Press)
 - Basic sentiment analysis, including top sentiments found and visualization of these topic sentiments and their respective top word frequencies
