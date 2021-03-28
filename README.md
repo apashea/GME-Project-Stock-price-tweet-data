@@ -9,7 +9,7 @@ This R script does the following:
 	- Import stop words, create custom stop word lists, and remove stop words from our tweet word counts
 	- Find word counts
 	- Visualize wordclouds
-	- Output topic models (here a latent derelicht allocation model which finds 'latent' patterns of particular words used across our documents, i.e. our tweets. We use Gibbs sampling to output four topics).
+	- Output topic models (here a latent dirichlet allocation model which finds 'latent' patterns of particular words used across our documents, i.e. our tweets. We use Gibbs sampling to output four topics).
 	- Visualize topic models and appearance proportions per day.
 - Finds subsets of tweets most related to individual topics from topic models for deeper inspection
 - Plots topic appearance per tweet's timestamp versus the adjusted close stock price, which might be used conceptually to study the relationship between stock price and twitter topics (inspired by economist Thomas Renault's 2017 study of intraday StockTwits sentiment analysis versus stock price changes; citation included in the script)
